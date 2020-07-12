@@ -49,14 +49,13 @@ section{
     margin-top: 80px;
     font-weight:700;
 }
-#heading1{
+.heading{
     text-align:center;
     margin:100px 80px;
 }
 .latest-work{
     background-image: url("images/latest-work-bg.png");
     background-size: 100%;
-    margin-top: 100px;
     height: 400px;
     padding-bottom: 50px;
 }
@@ -67,10 +66,39 @@ section{
     margin-left:5%;
 
 }
+.tech-enthusiast{
+    height: 400px;
+    margin-top: 80px;
+}
+.field{
+    float:left;
+    width:20%;
+    margin-left: 4%;
+    padding-left: 3%;
+    margin-right:3%;
+    padding-right:3%;
+}
+.field:hover{
+    box-shadow:10px 10px 40px gray;
+    border-radius:5px;
+    height:100%;
+    background-color: rgb(245, 201, 201);
+}
+.field img{
+    height:300px;
+    width:300px;
+    border-radius:30px;
+}
+iframe{
+    height:300px;
+    width:300px;
+    border-radius:30px;
+}
 .footer-area{
     background-image: url("images/footer-bg.png");
     text-align: center;
     background-size:100%;
+    padding-top: 50px;
 }
 .text{
     text-align: center;
