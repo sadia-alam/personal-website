@@ -46,19 +46,26 @@ section{
     background-size: 100%;
 }
 #word{
-    padding-top:80px;
+    margin-top: 80px;
+    font-weight:700;
 }
 #heading1{
     text-align:center;
+    margin:100px 80px;
 }
 .latest-work{
     background-image: url("images/latest-work-bg.png");
     background-size: 100%;
+    margin-top: 100px;
+    height: 400px;
+    padding-bottom: 50px;
 }
 .latest-work-image img{
-    width:25%;
+    width:20%;
     float:left;
     padding-left:5%;
+    margin-left:5%;
+
 }
 .footer-area{
     background-image: url("images/footer-bg.png");
